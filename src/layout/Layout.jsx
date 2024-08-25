@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom"
 
 import Header from "./Header"
 
-function layout() {
+function Layout() {
   return (
     <div>
       <div className="">
@@ -16,4 +16,4 @@ function layout() {
   )
 }
 
-export default layout
+export default Layout
