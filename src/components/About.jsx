@@ -3,6 +3,7 @@
 function About() {
   return (
     <div className="max-w-[720px] m-auto p-4 rounded-xl bg-slate-50 mb-12">
+      <a id="about"/>
         <p className="font-playfair text-2xl ">Who am I?</p>
         <div className="mt-4 mb-4 font-inter">
             <p className="">Hey my name’s Damon, I’m a 27yr old JavaScript Developer from Melbourne, Australia - I create

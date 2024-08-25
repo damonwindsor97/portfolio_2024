@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react';
 
+
 import { Tabs } from '@mui/base/Tabs';
 import { TabsList } from '@mui/base/TabsList';
 import { TabPanel } from '@mui/base/TabPanel';
@@ -22,35 +23,40 @@ const projects = [
     description: "A simple frontend website that is linked to Sellix's backend via their Modal.",
     image: Storefront1Image,
     tag: "website",
-    tech: ["javascript", "react", "tailwind"]
+    tech: ["javascript", "react", "tailwind"],
+    link: "https://storefront-frontend-1.onrender.com/"
   },
-  {  id: 3,
+  {  id: 1,
     title: "Linkify",
     description: "Linkify is a link utility website, giving users different “utilities” in relation to URL’s. Linkify is powered by a custom API.",
     image: LinkifyImage,
     tag: 'webapp',
-    tech: ["javascript", "react", "tailwind"]
+    tech: ["javascript", "react", "tailwind"],
+    link: "https://linkify.gg"
   },
   {  id: 2,
     title: "Media Download API",
     description: "An API built primarily for Linkify, allowing users to download YouTube videos to MP3 & MP4, Soundcloud to MP3 & more to come.",
     image: MediaAPI,
     tag: "api",
-    tech: ["javascript", "express", "node"]
+    tech: ["javascript", "express", "node"],
+    link: "https://github.com/damonwindsor97/media-download-api"
   },
-  {  id: 1,
+  {  id: 3,
     title: "Frontend with Sellix 2",
     description: "A simple frontend website that is linked to Sellix's backend via their Modal.",
     image: Storefront2Image,
     tag: "website",
-    tech: ["javascript", "react", "tailwind"]
+    tech: ["javascript", "react", "tailwind"],
+    link: ""
   },
   {  id: 4,
     title: "Biolink alternative",
     description: "This “biolink” alternative was made around 2021 when I was first practicing the basics of CSS.",
     image: Biolink,
     tag: "website",
-    tech: ["html", "css", "javascript"]
+    tech: ["html", "css", "javascript"],
+    link: ""
   },
 ]
 
@@ -107,12 +113,14 @@ function MyTab() {
                   <TabPanel value={1}>
                     <div className='mt-10'>
                       {filteredProjects('all').map((project, index) => (
+                        
                         <ProjectPanel
                           key={index}
                           image={project.image}
                           title={project.title}
                           description={project.description}
                           tech={project.tech}
+                          link={project.link}
                         />
                       ))}
                     </div>
