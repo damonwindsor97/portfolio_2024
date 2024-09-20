@@ -1,20 +1,26 @@
+import { Link } from 'react-router-dom'
 
+import LinkedLogo from '../assets/logos/linkedin.png'
+import GithubLogo from '../assets/logos/github.png'
 
 function About() {
   return (
-    <div className="max-w-[720px] m-auto p-4 rounded-xl bg-slate-50 mb-12">
+    <div className="max-w-[980px] m-auto p-4 rounded-xl bg-slate-50 mb-12">
       <a id="about"/>
-        <p className="font-playfair text-2xl ">Who am I?</p>
         <div className="mt-4 mb-4 font-inter">
             <p className="">Hey my name’s Damon, I’m a 27yr old JavaScript Developer from Melbourne, Australia - I create
-            websites and applications using JavaScript.</p>
-            <p className="mt-2">I’m primarily used to a MERN stack (Mongo, Express, React & Node) but have had some 
-            experience in FERN (Firebase, Express, React & Node). React.js is also the main framework I use 
-            on a day-to-day basis though I am familiar with Next.js.</p>
-            <p className="mt-2">In regards to Front-End development I am experienced in few styling systems, such as; Bootstrap,
-            Styled Components, Tailwind CSS, Vanilla CSS & Vanilla Extract - though I am using Tailwind
-            more often than not lately.</p>
-            <p className="mt-2">In regards to Back-End development I am experienced in Express.js, MySQL, MongoDB & Firebase.</p>
+            websites and applications using React & JavaScript.</p>
+            <p className="mt-2">Primarily used to a MERN stack (Mongo, Express, React & Node) but have had some 
+            experience in FERN (Firebase, Express, React & Node).</p>
+            <p className="mt-2">Front-End development: HTML, CSS, JavaScript, SASS, SCSS, Bootstrap, Tailwind CSS, Vanilla Extract CSS, Reactjs, Nextjs, Svelte.</p>
+            <p className="mt-2">Back-End development: Node.js, Express.js, MySQL, Mongo DB, Google Firebase.</p>
+        </div>
+
+        <div className="flex">
+          <div className='flex m-auto items-center'>
+            <Link to="https://www.linkedin.com/in/damon-windsor-bb5092297"><img src={LinkedLogo} className='m-4 h-14 hover:scale-110'/></Link>
+            <Link to="https://github.com/damonwindsor97"><img src={GithubLogo} className='m-4 h-10 hover:scale-110'/></Link>
+          </div>
         </div>
     </div>
   )
