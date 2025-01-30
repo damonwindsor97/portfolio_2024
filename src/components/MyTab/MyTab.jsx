@@ -20,7 +20,7 @@ const projects = [
   {
     id: 0,
     title: "Frontend with Sellix 1",
-    description: "A simple frontend website that is linked to Sellix's backend via their Modal.",
+    description: "A simple frontend website that is linked to Sellix's backend via their Modal. (Sellix has since been seized)",
     image: Storefront1Image,
     tag: "website",
     tech: ["javascript", "react", "tailwind"],
@@ -28,11 +28,11 @@ const projects = [
   },
   {  id: 1,
     title: "Frontend with Sellix 2",
-    description: "A simple frontend website that is linked to Sellix's backend via their Modal.",
+    description: "A simple frontend website that is linked to Sellix's backend via their Modal. (Sellix has since been seized)",
     image: Storefront2Image,
     tag: "website",
     tech: ["javascript", "react", "tailwind"],
-    link: ""
+    link: "https://storefront-frontend-2.onrender.com"
   },
   {  id: 2,
     title: "Linkify",
@@ -47,7 +47,7 @@ const projects = [
     description: "An API built primarily for Linkify, allowing users to download YouTube videos to MP3 & MP4, Soundcloud to MP3 & more to come.",
     image: MediaAPI,
     tag: "api",
-    tech: ["javascript", "express", "node"],
+    tech: ["javascript", "express", "node", "mongo"],
     link: "https://github.com/damonwindsor97/media-download-api"
   },
 ]

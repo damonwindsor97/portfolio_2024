@@ -8,12 +8,13 @@ function About() {
     <div className="max-w-[980px] m-auto p-4 rounded-xl bg-slate-50 mb-12">
       <a id="about"/>
         <div className="mt-4 mb-4 font-inter">
-            <p className="">Hey my name’s Damon, I’m a 27yr old JavaScript Developer from Melbourne, Australia - I create
+            <p className="">Hey I'm Damon, a 27yr old JavaScript Developer from Melbourne, Australia - I create
             websites and applications using React & JavaScript.</p>
             <p className="mt-2">Primarily used to a MERN stack (Mongo, Express, React & Node) but have had some 
             experience in FERN (Firebase, Express, React & Node).</p>
             <p className="mt-2">Front-End development: HTML, CSS, JavaScript, SASS, SCSS, Bootstrap, Tailwind CSS, Vanilla Extract CSS, Reactjs, Nextjs, Svelte.</p>
             <p className="mt-2">Back-End development: Node.js, Express.js, MySQL, Mongo DB, Google Firebase.</p>
+            <p className='mt-3'>Currently Learning: Microsoft Server</p>
         </div>
 
         <div className="flex">
