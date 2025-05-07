@@ -13,10 +13,18 @@ import Storefront2Image from '../../assets/projectimages/storefront2.png'
 import LinkifyImage from '../../assets/projectimages/linkify.png'
 import MediaAPI from '../../assets/projectimages/api.png'
 import Biolink from '../../assets/projectimages/biolink.png'
-
+import FortyMb from '../../assets/projectimages/40mb.png'
 
 
 const projects = [
+  {  id: 4,
+    title: "40MB File Sharing",
+    description: "An affordable & secure way to share and store files",
+    image: FortyMb,
+    tag: "website",
+    tech: ["javascript", "express", "node", "firebase"],
+    link: "https://40mb.cloud"
+  },
   {
     id: 0,
     title: "Frontend with Sellix 1",
@@ -24,7 +32,7 @@ const projects = [
     image: Storefront1Image,
     tag: "website",
     tech: ["javascript", "react", "tailwind"],
-    link: "https://storefront-frontend-1.onrender.com/"
+    link: "https://storefront-frontend-1.onrender.com"
   },
   {  id: 1,
     title: "Frontend with Sellix 2",
@@ -36,7 +44,7 @@ const projects = [
   },
   {  id: 2,
     title: "Linkify",
-    description: "Linkify is a link utility website, giving users different “utilities” in relation to URL’s. Linkify is powered by a custom API.",
+    description: "Linkify is a link utility website, giving users different “utilities” in relation to URL’s initially, now includes other file types. Linkify is powered by a custom API.",
     image: LinkifyImage,
     tag: 'webapp',
     tech: ["javascript", "react", "tailwind"],
@@ -48,16 +56,9 @@ const projects = [
     image: MediaAPI,
     tag: "api",
     tech: ["javascript", "express", "node", "mongo"],
-    link: "https://github.com/damonwindsor97/media-download-api"
+    link: ""
   },
-  {  id: 4,
-    title: "40MB File Sharing",
-    description: "An affordable & secure way to share and store files",
-    image: MediaAPI,
-    tag: "website",
-    tech: ["javascript", "express", "node", "firebase"],
-    link: "https://40mb.cloud/"
-  },
+
 ]
 
 

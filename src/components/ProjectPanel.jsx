@@ -8,7 +8,7 @@ function ProjectPanel({image, title, description, tech, link}) {
         <div className="rounded-lg border p-4 bg-gray-50 hover:border-blue-300 cursor-pointer mb-10 mt-10">
             <div className='md:flex'>
                 <div className="flex items-center justify-center">
-                    <img className="md:w-[250px] w-full" src={image} alt=""/>
+                    <img className="md:w-[250px] w-full rounded" src={image} alt=""/>
                 </div>
 
                 <div className="p-4 md:w-[500px] text-center md:text-start">

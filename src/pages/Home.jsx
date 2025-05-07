@@ -1,4 +1,3 @@
-import Showcase from "../components/Showcase"
 import Projects from "../components/Projects"
 import About from "../components/About"
 

@@ -12,7 +12,7 @@ function About() {
             websites and applications using React & JavaScript.</p>
             <p className="mt-2">Primarily used to a MERN stack (Mongo, Express, React & Node) but have had some 
             experience in FERN (Firebase, Express, React & Node).</p>
-            <p className="mt-2">Front-End development: HTML, CSS, JavaScript, SASS, SCSS, Bootstrap, Tailwind CSS, Vanilla Extract CSS, Reactjs, Nextjs, Svelte.</p>
+            <p className="mt-2">Front-End development: Reactjs, Nextjs, Svelte, HTML, CSS, JavaScript, SASS, SCSS, Bootstrap, Tailwind CSS, Vanilla Extract CSS.</p>
             <p className="mt-2">Back-End development: Node.js, Express.js, MySQL, Mongo DB, Google Firebase.</p>
             <p className='mt-3'>Currently Learning: Microsoft Server</p>
         </div>
