@@ -50,6 +50,14 @@ const projects = [
     tech: ["javascript", "express", "node", "mongo"],
     link: "https://github.com/damonwindsor97/media-download-api"
   },
+  {  id: 4,
+    title: "40MB File Sharing",
+    description: "An affordable & secure way to share and store files",
+    image: MediaAPI,
+    tag: "website",
+    tech: ["javascript", "express", "node", "firebase"],
+    link: "https://40mb.cloud/"
+  },
 ]
 
 
